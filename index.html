@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Styling with CSS</title>
+  </head>
+  <body>
+    <main>
+      <div class="overlay disabled__overlay" aria-label="Overlay"></div>
+      <button id="open__popup__button" aria-label="Popup opener button">Open Popup</button>
+      <div class="popup" aria-label="Popup box">
+        <form action="" aria-label="Login form">
+          <p>Login Form</p>
+          <input type="text" placeholder="Name" aria-label="Name input field">
+          <input type="email" placeholder="Email" aria-label="Email input field">
+          <div class="button" aria-label="Button container">
+            <button type="button" aria-label="Submit button">Submit</button>
+            <button type="button" id="close__popup__button" aria-label="Popup closer button">Close</button>
+          </div>
+        </form>
+      </div>
+      <script src="script.js"></script>
+    </main>
+  </body>
+</html>
